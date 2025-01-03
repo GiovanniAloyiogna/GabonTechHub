@@ -37,7 +37,14 @@
 
     <!-- Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet" />
-
+    <style>
+      .d-flex a:hover {
+        color: #0d6efd; /* Change icon color on hover */
+        transform: scale(1.1); /* Slight zoom effect */
+        transition: 0.3s ease-in-out;
+      }
+    </style>
+    
     <!-- =======================================================
   * Template Name: Append
   * Template URL: https://bootstrapmade.com/append-bootstrap-website-template/
@@ -58,7 +65,7 @@
         >
           <!-- Uncomment the line below if you also wish to use an image logo -->
           <img
-            src="./assets/img/logo1.png"
+            src="./assets/img/logo2.png"
             alt=""
             srcset=""
             class="img-fluid"
@@ -76,10 +83,10 @@
             <li><a href="index.html#hero" class="active">Accueil</a></li>
             <li><a href="index.html#about">A propos</a></li>
             <li><a href="index.html#services">Services</a></li>
-            <li><a href="index.html#portfolio">Portfolio</a></li>
+            <li><a href="index.html#portfolio">Projets</a></li>
             <!-- <li><a href="index.html#pricing">Pricing</a></li> -->
-            <li><a href="index.html#team">Team</a></li>
-            <li><a href="blog.html">Posts</a></li>
+            <li><a href="index.html#team">Equipe</a></li>
+            <li><a href="#">Posts</a></li>
             <!-- <li class="dropdown">
               <a href="#"
                 ><span>Dropdown</span>
@@ -110,14 +117,14 @@
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
 
-        <a class="btn-getstarted" href="index.html#about">+24106675091</a>
+        <a class="btn-getstarted" href="https://wa.me/24166675091" target="_blank">+24106675091</a>
       </div>
     </header>
 
     <main class="main">
       <!-- Hero Section -->
       <section id="hero" class="hero section dark-background">
-        <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" />
+        <img src="assets/img/developers-team.webp" alt="" data-aos="fade-in" />
 
         <div class="container">
           <div class="row">
@@ -132,9 +139,7 @@
             </div>
 
             <div class="col-lg-5" data-aos="fade-up" data-aos-delay="300">
-              <a href="#" class="read-more"
-              ><span>En savoir plus...</span></i
-            ></a>
+              
               <!-- <form
                 action="forms/newsletter.php"
                 method="post"
@@ -194,7 +199,8 @@
 
                 <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
                   <div class="icon-box">
-                    <i class="bi bi-clipboard-pulse"></i>
+                    
+                    <i class="bi bi-graph-up-arrow"></i>
                     <h3>Marketing digital</h3>
                     <p>
                       Nous proposons des services de marketing digital, aidant les entreprises à optimiser leur présence en ligne grâce à des stratégies ciblées, de la gestion des réseaux sociaux, et des campagnes publicitaires performantes.
@@ -217,8 +223,8 @@
 
                 <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
                   <div class="icon-box">
-                    <i class="bi bi-graph-up-arrow"></i>
-                    <h3>Consulatation</h3>
+                    <i class="bi bi-clipboard-pulse"></i>
+                    <h3>Conseil en informatique</h3>
                     <p>
                       Gabon Tech Hub offre des services de consultation pour accompagner les PME, en leur fournissant des conseils stratégiques pour leur transformation digitale et l'optimisation de leurs opérations à travers des solutions technologiques adaptées.
                     </p>
@@ -289,107 +295,13 @@
       <!-- /Stats Section -->
 
 
-      <!-- Features Section -->
-      <section id="features" class="features section">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Says</h2>
-          
-        </div>
-        <!-- End Section Title -->
-
-        <div class="container">
-          <div class="row gy-4 align-items-center features-item">
-            <div
-              class="col-lg-5 order-2 order-lg-1"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <h3>Corporis temporibus maiores provident</h3>
-              <p>
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                aute irure dolor in reprehenderit in voluptate velit esse cillum
-                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident.
-              </p>
-              
-            </div>
-            <div
-              class="col-lg-7 order-1 order-lg-2 d-flex align-items-center"
-              data-aos="zoom-out"
-              data-aos-delay="100"
-            >
-              <div class="image-stack">
-                <img
-                  src="assets/img/features-light-1.jpg"
-                  alt=""
-                  class="stack-front"
-                />
-                
-              </div>
-            </div>
-          </div>
-          <!-- Features Item -->
-
-          <div
-            class="row gy-4 align-items-stretch justify-content-between features-item"
-          >
-            <div
-              class="col-lg-6 d-flex align-items-center features-img-bg"
-              data-aos="zoom-out"
-            >
-              <img
-                src="assets/img/features-light-3.jpg"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
-            <div
-              class="col-lg-5 d-flex justify-content-center flex-column"
-              data-aos="fade-up"
-            >
-              <h3>Sunt consequatur ad ut est nulla</h3>
-              <p>
-                Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus
-                quia minima quod. Sunt saepe odit aut quia voluptatem hic
-                voluptas dolor doloremque.
-              </p>
-              <ul>
-                <li>
-                  <i class="bi bi-check"></i>
-                  <span
-                    >Ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.</span
-                  >
-                </li>
-                <li>
-                  <i class="bi bi-check"></i
-                  ><span>
-                    Duis aute irure dolor in reprehenderit in voluptate
-                    velit.</span
-                  >
-                </li>
-                <li>
-                  <i class="bi bi-check"></i>
-                  <span
-                    >Facilis ut et voluptatem aperiam. Autem soluta ad
-                    fugiat</span
-                  >.
-                </li>
-              </ul>
-              
-            </div>
-          </div>
-          <!-- Features Item -->
-        </div>
-      </section>
-      <!-- /Features Section -->
+    
 
       <!-- Portfolio Section -->
       <section id="portfolio" class="portfolio section">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-          <h2>Portfolio</h2>
+          <h2>Nos projets</h2>
           <p>
             Découvrez nos projets d'avenir, où Gabon Tech Hub s'engage à développer des solutions technologiques innovantes pour soutenir la croissance des entreprises locales. Parmi nos initiatives en vue, nous prévoyons l'expansion de nos services de développement logiciel, le lancement de plateformes numériques pour faciliter la gestion des PME, et la mise en place de programmes de formation avancée en technologie.
              Nous restons à l'avant-garde de la transformation digitale au Gabon et en Afrique.
@@ -421,254 +333,43 @@
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
-              >
-                <img
-                  src="assets/img/masonry-portfolio/masonry-portfolio-1.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>App 1</h4>
-                  <p>Lorem ipsum, dolor sit</p>
-                  <a
-                    href="assets/img/masonry-portfolio/masonry-portfolio-1.jpg"
-                    title="App 1"
-                    data-gallery="portfolio-gallery-app"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                    ><i class="bi bi-link-45deg"></i
-                  ></a>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
+             
+              
 
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"
-              >
-                <img
-                  src="assets/img/masonry-portfolio/masonry-portfolio-2.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>Product 1</h4>
-                  <p>Lorem ipsum, dolor sit</p>
-                  <a
-                    href="assets/img/masonry-portfolio/masonry-portfolio-2.jpg"
-                    title="Product 1"
-                    data-gallery="portfolio-gallery-product"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                    ><i class="bi bi-link-45deg"></i
-                  ></a>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
+            
+
+            
+
+
+            
+
+
 
               <div
                 class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"
               >
                 <img
-                  src="assets/img/masonry-portfolio/masonry-portfolio-3.jpg"
+                  src="assets/img/projet.png"
                   class="img-fluid"
                   alt=""
                 />
                 <div class="portfolio-info">
-                  <h4>Branding 1</h4>
-                  <p>Lorem ipsum, dolor sit</p>
-                  <a
-                    href="assets/img/masonry-portfolio/masonry-portfolio-3.jpg"
-                    title="Branding 1"
-                    data-gallery="portfolio-gallery-branding"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                    ><i class="bi bi-link-45deg"></i
-                  ></a>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
+                  <h4>Lancement bientôt</h4>
+<p>Une application innovante qui va améliorer le quotidien des apprenants.</p>
 
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
-              >
-                <img
-                  src="assets/img/masonry-portfolio/masonry-portfolio-4.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>App 2</h4>
-                  <p>Lorem ipsum, dolor sit</p>
-                  <a
-                    href="assets/img/masonry-portfolio/masonry-portfolio-4.jpg"
-                    title="App 2"
-                    data-gallery="portfolio-gallery-app"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                    ><i class="bi bi-link-45deg"></i
-                  ></a>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"
-              >
-                <img
-                  src="assets/img/masonry-portfolio/masonry-portfolio-5.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>Product 2</h4>
-                  <p>Lorem ipsum, dolor sit</p>
-                  <a
-                    href="assets/img/masonry-portfolio/masonry-portfolio-5.jpg"
-                    title="Product 2"
-                    data-gallery="portfolio-gallery-product"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                    ><i class="bi bi-link-45deg"></i
-                  ></a>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"
-              >
-                <img
-                  src="assets/img/masonry-portfolio/masonry-portfolio-6.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>Branding 2</h4>
-                  <p>Lorem ipsum, dolor sit</p>
-                  <a
-                    href="assets/img/masonry-portfolio/masonry-portfolio-6.jpg"
-                    title="Branding 2"
-                    data-gallery="portfolio-gallery-branding"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                    ><i class="bi bi-link-45deg"></i
-                  ></a>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
-              >
-                <img
-                  src="assets/img/masonry-portfolio/masonry-portfolio-7.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>App 3</h4>
-                  <p>Lorem ipsum, dolor sit</p>
-                  <a
-                    href="assets/img/masonry-portfolio/masonry-portfolio-7.jpg"
-                    title="App 3"
-                    data-gallery="portfolio-gallery-app"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                    ><i class="bi bi-link-45deg"></i
-                  ></a>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"
-              >
-                <img
-                  src="assets/img/masonry-portfolio/masonry-portfolio-8.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>Product 3</h4>
-                  <p>Lorem ipsum, dolor sit</p>
-                  <a
-                    href="assets/img/masonry-portfolio/masonry-portfolio-8.jpg"
-                    title="Product 3"
-                    data-gallery="portfolio-gallery-product"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                    ><i class="bi bi-link-45deg"></i
-                  ></a>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"
-              >
-                <img
-                  src="assets/img/masonry-portfolio/masonry-portfolio-9.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>Branding 3</h4>
-                  <p>Lorem ipsum, dolor sit</p>
-                  <a
+                  <!-- <a
                     href="assets/img/masonry-portfolio/masonry-portfolio-9.jpg"
                     title="Branding 2"
                     data-gallery="portfolio-gallery-branding"
                     class="glightbox preview-link"
                     ><i class="bi bi-zoom-in"></i
-                  ></a>
-                  <a
+                  ></a> -->
+                  <!-- <a
                     href="portfolio-details.html"
                     title="More Details"
                     class="details-link"
                     ><i class="bi bi-link-45deg"></i
-                  ></a>
+                  ></a> -->
                 </div>
               </div>
               <!-- End Portfolio Item -->
@@ -687,11 +388,11 @@
       <section id="team" class="team section light-background">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-          <h2>Team</h2>
-          <p>
+          <h2>Notre équipe</h2>
+          <!-- <p>
             Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
             consectetur velit
-          </p>
+          </p> -->
         </div>
         <!-- End Section Title -->
 
@@ -719,8 +420,7 @@
                 <h4>Giovanni Aloyiogna</h4>
                 <span>Founder</span>
                 <p>
-                  Aliquam iure quaerat voluptatem praesentium possimus unde
-                  laudantium vel dolorum distinctio dire flow
+                  je crois fermement que cette startup, dans l'ère de la digitalisation du Gabon, a le potentiel de transformer le quotidien des gens et de contribuer au développement du pays.
                 </p>
               </div>
             </div>
@@ -767,215 +467,7 @@
 
       
 
-      <!-- Testimonials Section -->
-      <section id="testimonials" class="testimonials section light-background">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-5 info" data-aos="fade-up" data-aos-delay="100">
-              <h3>Testimonials</h3>
-              <p>
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                aute irure dolor in reprehenderit in voluptate velit esse cillum
-                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident.
-              </p>
-            </div>
-
-            <div class="col-lg-7" data-aos="fade-up" data-aos-delay="200">
-              <div class="swiper init-swiper">
-                <script type="application/json" class="swiper-config">
-                  {
-                    "loop": true,
-                    "speed": 600,
-                    "autoplay": {
-                      "delay": 5000
-                    },
-                    "slidesPerView": "auto",
-                    "pagination": {
-                      "el": ".swiper-pagination",
-                      "type": "bullets",
-                      "clickable": true
-                    }
-                  }
-                </script>
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <div class="testimonial-item">
-                      <div class="d-flex">
-                        <img
-                          src="assets/img/testimonials/testimonials-1.jpg"
-                          class="testimonial-img flex-shrink-0"
-                          alt=""
-                        />
-                        <div>
-                          <h3>Saul Goodman</h3>
-                          <h4>Ceo &amp; Founder</h4>
-                          <div class="stars">
-                            <i class="bi bi-star-fill"></i
-                            ><i class="bi bi-star-fill"></i
-                            ><i class="bi bi-star-fill"></i
-                            ><i class="bi bi-star-fill"></i
-                            ><i class="bi bi-star-fill"></i>
-                          </div>
-                        </div>
-                      </div>
-                      <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
-                        <span
-                          >Proin iaculis purus consequat sem cure digni ssim
-                          donec porttitora entum suscipit rhoncus. Accusantium
-                          quam, ultricies eget id, aliquam eget nibh et. Maecen
-                          aliquam, risus at semper.</span
-                        >
-                        <i class="bi bi-quote quote-icon-right"></i>
-                      </p>
-                    </div>
-                  </div>
-                  <!-- End testimonial item -->
-
-                  <div class="swiper-slide">
-                    <div class="testimonial-item">
-                      <div class="d-flex">
-                        <img
-                          src="assets/img/testimonials/testimonials-2.jpg"
-                          class="testimonial-img flex-shrink-0"
-                          alt=""
-                        />
-                        <div>
-                          <h3>Sara Wilsson</h3>
-                          <h4>Designer</h4>
-                          <div class="stars">
-                            <i class="bi bi-star-fill"></i
-                            ><i class="bi bi-star-fill"></i
-                            ><i class="bi bi-star-fill"></i
-                            ><i class="bi bi-star-fill"></i
-                            ><i class="bi bi-star-fill"></i>
-                          </div>
-                        </div>
-                      </div>
-                      <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
-                        <span
-                          >Export tempor illum tamen malis malis eram quae irure
-                          esse labore quem cillum quid cillum eram malis quorum
-                          velit fore eram velit sunt aliqua noster fugiat irure
-                          amet legam anim culpa.</span
-                        >
-                        <i class="bi bi-quote quote-icon-right"></i>
-                      </p>
-                    </div>
-                  </div>
-                  <!-- End testimonial item -->
-
-                  <div class="swiper-slide">
-                    <div class="testimonial-item">
-                      <div class="d-flex">
-                        <img
-                          src="assets/img/testimonials/testimonials-3.jpg"
-                          class="testimonial-img flex-shrink-0"
-                          alt=""
-                        />
-                        <div>
-                          <h3>Jena Karlis</h3>
-                          <h4>Store Owner</h4>
-                          <div class="stars">
-                            <i class="bi bi-star-fill"></i
-                            ><i class="bi bi-star-fill"></i
-                            ><i class="bi bi-star-fill"></i
-                            ><i class="bi bi-star-fill"></i
-                            ><i class="bi bi-star-fill"></i>
-                          </div>
-                        </div>
-                      </div>
-                      <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
-                        <span
-                          >Enim nisi quem export duis labore cillum quae magna
-                          enim sint quorum nulla quem veniam duis minim tempor
-                          labore quem eram duis noster aute amet eram fore quis
-                          sint minim.</span
-                        >
-                        <i class="bi bi-quote quote-icon-right"></i>
-                      </p>
-                    </div>
-                  </div>
-                  <!-- End testimonial item -->
-
-                  <div class="swiper-slide">
-                    <div class="testimonial-item">
-                      <div class="d-flex">
-                        <img
-                          src="assets/img/testimonials/testimonials-4.jpg"
-                          class="testimonial-img flex-shrink-0"
-                          alt=""
-                        />
-                        <div>
-                          <h3>Matt Brandon</h3>
-                          <h4>Freelancer</h4>
-                          <div class="stars">
-                            <i class="bi bi-star-fill"></i
-                            ><i class="bi bi-star-fill"></i
-                            ><i class="bi bi-star-fill"></i
-                            ><i class="bi bi-star-fill"></i
-                            ><i class="bi bi-star-fill"></i>
-                          </div>
-                        </div>
-                      </div>
-                      <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
-                        <span
-                          >Fugiat enim eram quae cillum dolore dolor amet nulla
-                          culpa multos export minim fugiat minim velit minim
-                          dolor enim duis veniam ipsum anim magna sunt elit fore
-                          quem dolore labore illum veniam.</span
-                        >
-                        <i class="bi bi-quote quote-icon-right"></i>
-                      </p>
-                    </div>
-                  </div>
-                  <!-- End testimonial item -->
-
-                  <div class="swiper-slide">
-                    <div class="testimonial-item">
-                      <div class="d-flex">
-                        <img
-                          src="assets/img/testimonials/testimonials-5.jpg"
-                          class="testimonial-img flex-shrink-0"
-                          alt=""
-                        />
-                        <div>
-                          <h3>John Larson</h3>
-                          <h4>Entrepreneur</h4>
-                          <div class="stars">
-                            <i class="bi bi-star-fill"></i
-                            ><i class="bi bi-star-fill"></i
-                            ><i class="bi bi-star-fill"></i
-                            ><i class="bi bi-star-fill"></i
-                            ><i class="bi bi-star-fill"></i>
-                          </div>
-                        </div>
-                      </div>
-                      <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
-                        <span
-                          >Quis quorum aliqua sint quem legam fore sunt eram
-                          irure aliqua veniam tempor noster veniam enim culpa
-                          labore duis sunt culpa nulla illum cillum fugiat legam
-                          esse veniam culpa fore nisi cillum quid.</span
-                        >
-                        <i class="bi bi-quote quote-icon-right"></i>
-                      </p>
-                    </div>
-                  </div>
-                  <!-- End testimonial item -->
-                </div>
-                <div class="swiper-pagination"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- /Testimonials Section -->
+    
 
       <!-- Recent Posts Section -->
       <section id="recent-posts" class="recent-posts section">
@@ -986,129 +478,47 @@
             Consultez notre actualité!
           </p>
         </div>
-        <!-- End Section Title -->
 
+        
         <div class="container">
           <div class="row gy-4">
-            <!-- <div
-              class="col-xl-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
+  
+            <div class="col-lg-4">
               <article>
+  
                 <div class="post-img">
-                  <img
-                    src="assets/img/blog/blog-1.jpg"
-                    alt=""
-                    class="img-fluid"
-                  />
+                  <img src="assets/img/anglais.png" alt="" class="img-fluid">
                 </div>
-
-                <p class="post-category">Politics</p>
-
+  
+              
+  
                 <h2 class="title">
-                  <a href="blog-details.html"
-                    >Dolorum optio tempore voluptas dignissimos</a
-                  >
+                  <a href="blog-details.html">Apprenez l'anglais professionnel gratuitement!</a>
                 </h2>
-
-                <div class="d-flex align-items-center">
-                  <img
-                    src="assets/img/blog/blog-author.jpg"
-                    alt=""
-                    class="img-fluid post-author-img flex-shrink-0"
-                  />
-                  <div class="post-meta">
-                    <p class="post-author">Maria Doe</p>
-                    <p class="post-date">
-                      <time datetime="2022-01-01">Jan 1, 2022</time>
+  
+                <div class="d-flex align-items-center" style="background-color:  #353638; border-radius: 8px; padding: 10px; gap: 10px;">
+                  
+                  <a href="https://wa.me/24166675091" target="_blank" style="text-decoration: none; color:  #ffb801; font-size: 1.5rem;">
+                    <i class="bi bi-whatsapp"></i>
+                  </a>
+                  <div class="post-meta" style="color: #fff;">
+                    <p class="post-author" style="margin: 0; font-weight: bold;">Lalala A Gauche</p>
+                    <p class="post-date" style="margin: 0; font-size: 0.9rem;">
+                      <time datetime="2022-01-01" style="color: #fff;">12 Février, 2025</time>
                     </p>
                   </div>
                 </div>
+                
+  
               </article>
-            </div> -->
-            <!-- End post list item -->
-
-            <!-- <div
-              class="col-xl-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <article>
-                <div class="post-img">
-                  <img
-                    src="assets/img/blog/blog-2.jpg"
-                    alt=""
-                    class="img-fluid"
-                  />
-                </div>
-
-                <p class="post-category">Sports</p>
-
-                <h2 class="title">
-                  <a href="blog-details.html"
-                    >Nisi magni odit consequatur autem nulla dolorem</a
-                  >
-                </h2>
-
-                <div class="d-flex align-items-center">
-                  <img
-                    src="assets/img/blog/blog-author-2.jpg"
-                    alt=""
-                    class="img-fluid post-author-img flex-shrink-0"
-                  />
-                  <div class="post-meta">
-                    <p class="post-author">Allisa Mayer</p>
-                    <p class="post-date">
-                      <time datetime="2022-01-01">Jun 5, 2022</time>
-                    </p>
-                  </div>
-                </div>
-              </article>
-            </div> -->
-            <!-- End post list item -->
-
-            <!-- <div
-              class="col-xl-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <article>
-                <div class="post-img">
-                  <img
-                    src="assets/img/blog/blog-3.jpg"
-                    alt=""
-                    class="img-fluid"
-                  />
-                </div>
-
-                <p class="post-category">Entertainment</p>
-
-                <h2 class="title">
-                  <a href="blog-details.html"
-                    >Possimus soluta ut id suscipit ea ut in quo quia et
-                    soluta</a
-                  >
-                </h2>
-
-                <div class="d-flex align-items-center">
-                  <img
-                    src="assets/img/blog/blog-author-3.jpg"
-                    alt=""
-                    class="img-fluid post-author-img flex-shrink-0"
-                  />
-                  <div class="post-meta">
-                    <p class="post-author">Mark Dower</p>
-                    <p class="post-date">
-                      <time datetime="2022-01-01">Jun 22, 2022</time>
-                    </p>
-                  </div>
-                </div>
-              </article>
-            </div> -->
-            <!-- End post list item -->
+            </div><!-- End post list item -->
+  
+          
+  
+           
+  
+  
           </div>
-          <!-- End recent posts list -->
         </div>
       </section>
       <!-- /Recent Posts Section -->
@@ -1119,8 +529,7 @@
         <div class="container section-title" data-aos="fade-up">
           <h2>Contact</h2>
           <p>
-            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-            consectetur velit
+            Vous avez des questions, un projet ou besoin d’informations ? Nous sommes là pour vous accompagner.
           </p>
         </div>
         <!-- End Section Title -->
@@ -1132,9 +541,9 @@
                 <div class="col-md-6">
                   <div class="info-item" data-aos="fade" data-aos-delay="200">
                     <i class="bi bi-geo-alt"></i>
-                    <h3>Address</h3>
-                    <p>A108 Adam Street</p>
-                    <p>New York, NY 535022</p>
+                    <h3>Addresse</h3>
+                    <p>Lalala A Gauche</p>
+                   
                   </div>
                 </div>
                 <!-- End Info Item -->
@@ -1142,9 +551,9 @@
                 <div class="col-md-6">
                   <div class="info-item" data-aos="fade" data-aos-delay="300">
                     <i class="bi bi-telephone"></i>
-                    <h3>Call Us</h3>
-                    <p>+1 5589 55488 55</p>
-                    <p>+1 6678 254445 41</p>
+                    <h3>Contact</h3>
+                    <p>+24166675091</p>
+                    
                   </div>
                 </div>
                 <!-- End Info Item -->
@@ -1152,9 +561,9 @@
                 <div class="col-md-6">
                   <div class="info-item" data-aos="fade" data-aos-delay="400">
                     <i class="bi bi-envelope"></i>
-                    <h3>Email Us</h3>
-                    <p>info@example.com</p>
-                    <p>contact@example.com</p>
+                    <h3>Email </h3>
+                    
+                    <p>Gabon-tech-hub@gmail.com</p>
                   </div>
                 </div>
                 <!-- End Info Item -->
@@ -1162,9 +571,9 @@
                 <div class="col-md-6">
                   <div class="info-item" data-aos="fade" data-aos-delay="500">
                     <i class="bi bi-clock"></i>
-                    <h3>Open Hours</h3>
-                    <p>Monday - Friday</p>
-                    <p>9:00AM - 05:00PM</p>
+                    <h3>Horaire ouverture</h3>
+                    <p>Lundi - Samedi</p>
+                    <p>9:00 - 18:00</p>
                   </div>
                 </div>
                 <!-- End Info Item -->
@@ -1185,7 +594,7 @@
                       type="text"
                       name="name"
                       class="form-control"
-                      placeholder="Your Name"
+                      placeholder="Votre Nom"
                       required=""
                     />
                   </div>
@@ -1195,7 +604,7 @@
                       type="email"
                       class="form-control"
                       name="email"
-                      placeholder="Your Email"
+                      placeholder="Votre Email"
                       required=""
                     />
                   </div>
@@ -1204,8 +613,8 @@
                     <input
                       type="text"
                       class="form-control"
-                      name="subject"
-                      placeholder="Subject"
+                      name="Object"
+                      placeholder="Object"
                       required=""
                     />
                   </div>
@@ -1227,7 +636,7 @@
                       Your message has been sent. Thank you!
                     </div>
 
-                    <button type="submit">Send Message</button>
+                    <button type="submit">Envoyer Message</button>
                   </div>
                 </div>
               </form>
@@ -1243,13 +652,11 @@
       <div class="container footer-top">
         <div class="row gy-4">
           <div class="col-lg-5 col-md-12 footer-about">
-            <a href="index.html" class="logo d-flex align-items-center">
-              <span class="sitename">Append</span>
-            </a>
+            
             <p>
-              Cras fermentum odio eu feugiat lide par naso tierra. Justo eget
-              nada terra videa magna derita valies darta donna mare fermentum
-              iaculis eu non diam phasellus.
+              <p>
+                Vous avez des questions, un projet ou besoin d’informations ? Nous sommes là pour vous accompagner.
+              </p>
             </p>
             <div class="social-links d-flex mt-4">
               <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -1260,36 +667,34 @@
           </div>
 
           <div class="col-lg-2 col-6 footer-links">
-            <h4>Useful Links</h4>
+            <h4>Liens importants</h4>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
+              <li><a href="#">Accueil</a></li>
+              <li><a href="#">A propos </a></li>
               <li><a href="#">Services</a></li>
-              <li><a href="#">Terms of service</a></li>
-              <li><a href="#">Privacy policy</a></li>
+             
             </ul>
           </div>
 
           <div class="col-lg-2 col-6 footer-links">
-            <h4>Our Services</h4>
+            <h4>Nos services</h4>
             <ul>
-              <li><a href="#">Web Design</a></li>
-              <li><a href="#">Web Development</a></li>
-              <li><a href="#">Product Management</a></li>
-              <li><a href="#">Marketing</a></li>
-              <li><a href="#">Graphic Design</a></li>
+              <li><a href="#">Développement logiciel</a></li>
+              <li><a href="#">Inforgraphie</a></li>
+              <li><a href="#">Marketing digital</a></li>
+              <li><a href="#">Conseil en informatique</a></li>
+             
             </ul>
           </div>
 
           <div
             class="col-lg-3 col-md-12 footer-contact text-center text-md-start"
           >
-            <h4>Contact Us</h4>
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p>United States</p>
+            <h4>Contactez Nous</h4>
+            <p>Lalala A Gauche</p>
+            
             <p class="mt-4">
-              <strong>Phone:</strong> <span>+1 5589 55488 55</span>
+              <strong>Phone:</strong> <span>+2466675091</span>
             </p>
             <p><strong>Email:</strong> <span>info@example.com</span></p>
           </div>
@@ -1298,16 +703,10 @@
 
       <div class="container copyright text-center mt-4">
         <p>
-          © <span>Copyright</span> <strong class="sitename">Append</strong>
+          © <span>Copyright</span> <strong class="sitename"></strong>
           <span>All Rights Reserved</span>
         </p>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you've purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
+       
       </div>
     </footer>
 
